@@ -550,6 +550,12 @@ section {
   margin-bottom: 10px;
 }
 
+.company-legal-small {
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+
 .highlight {
   margin: 18px 0 0;
   background: linear-gradient(130deg, #394227 0%, #586738 100%);
