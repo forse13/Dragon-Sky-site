@@ -104,6 +104,10 @@ header {
   border-bottom: 1px solid var(--line);
 }
 
+.hero-actions-center {
+  justify-content: center;
+}
+
 .nav {
   display: flex;
   align-items: center;
