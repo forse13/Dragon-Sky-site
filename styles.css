@@ -240,7 +240,7 @@ h1 {
 }
 
 .hero-main-title {
-  font-size: clamp(1.55rem, 2.8vw, 2.35rem);
+  font-size: clamp(1.65rem, 2.8vw, 2.35rem);
   line-height: 1.2;
   text-align: center;
   margin-inline: auto;
