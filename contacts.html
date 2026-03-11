@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Контакти | Dragonsky</title>
+  <meta name="description" content="Контакти технікуму Dragonsky." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div
+    class="main-bg"
+    data-bg-type="image"
+    data-bg-image="logo_main.jpg"
+    data-bg-video="media/main-bg.mp4"
+  ></div>
+  <div class="noise"></div>
+  <header><div class="container nav"><a class="brand" href="index.html"><span class="brand-badge"><img src="logo_main.jpg" alt="Dragonsky logo" /></span><span class="brand-title">Dragon Sky</span></a><button class="nav-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" data-nav-toggle>☰</button><nav class="site-nav"><ul><li><a href="index.html">Головна</a></li><li><a href="programs.html">Програми</a></li><li><a href="documents.html">Документи</a></li><li><a class="active" href="contacts.html">Контакти</a></li></ul></nav><a class="btn btn-primary" href="index.html">На головну</a></div></header>
+
+  <main class="container">
+    <section class="page-hero">
+      <h1>Контакти</h1>
+      
+    </section>
+
+    <section class="grid-2">
+      <article class="list-box">
+        <h3>Контакти</h3>
+        <ul class="contact-list">
+          <li><strong>Адреса</strong>м. Київ  </li>
+          <li><strong>Контактний номер</strong>+380500166683</li>
+          <li><strong>Мобільний номер</strong>+380500166683</li>
+          <li><strong>Email</strong>kovaav@gmail.com</li>
+          
+        </ul>
+        <div class="chips">
+          <a class="chip" href="#">Telegram</a>
+          <a class="chip" href="#">Viber</a>
+          <a class="chip" href="#">WhatsApp</a>
+          <a class="chip" href="#">Instagram</a>
+        </div>
+      </article>
+
+      <article class="form-card">
+        <h3>Форма зворотного зв'язку</h3>
+        <p class="form-note">Залиште контакти, і менеджер приймальної комісії передзвонить вам.</p>
+        <form>
+          <div class="form-grid">
+            <label>
+              Ім'я
+              <input type="text" name="first_name" placeholder="Ваше ім'я" required />
+            </label>
+            <label>
+              Прізвище
+              <input type="text" name="last_name" placeholder="Ваше прізвище" required />
+            </label>
+            <label>
+              Телефон
+              <input type="tel" name="phone" placeholder="+380 (XX) XXX-XX-XX" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="example@email.com" />
+            </label>
+            <label class="full">
+              Повідомлення
+              <textarea name="message" placeholder="Питання щодо навчання або вступу"></textarea>
+            </label>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-primary" type="button">Надіслати</button>
+          </div>
+                  
+        </form>
+      </article>
+
+    </section>
+
+    
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><strong>Центр професійної освіти "Dragon Sky" ТОВ "БЕЗПІЛОТНИК"</strong></div>
+      <div>+380500166683<br />kovaav@gmail.com</div>
+      <div><a href="documents.html">Документи</a> • <a href="contacts.html">Контакти</a></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="main-bg.js"></script>
+  <script src="nav-mobile.js"></script>
+</body>
+</html>

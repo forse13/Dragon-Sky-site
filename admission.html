@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вступ | Dragonsky</title>
+  <meta name="description" content="Умови вступу до технікуму Dragonsky у Києві." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Unbounded:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div
+    class="main-bg"
+    data-bg-type="image"
+    data-bg-image="logo_main.jpg"
+    data-bg-video="media/main-bg.mp4"
+  ></div>
+  <div class="noise"></div>
+  <header><div class="container nav"><a class="brand" href="index.html"><span class="brand-badge"><img src="logo_main.jpg" alt="Dragonsky logo" /></span><span class="brand-title">Dragon Sky</span></a><button class="nav-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" data-nav-toggle>☰</button><nav class="site-nav"><ul><li><a href="index.html">Головна</a></li><li><a href="programs.html">Програми</a></li><li><a href="documents.html">Документи</a></li><li><a href="contacts.html">Контакти</a></li></ul></nav><a class="btn btn-primary" href="contacts.html">Потрібна допомога</a></div></header>
+
+  <main class="container">
+    <section class="page-hero"><h1>Вступ 2026</h1><p>Тут зібрано основні правила вступу, перелік документів та онлайн-подача заявки.</p></section>
+    <section class="grid-2"><article class="list-box"><h3>Ключові дати</h3><ul><li>15 червня: старт прийому документів.</li><li>25 серпня: завершення подачі заяв.</li><li>28 серпня: рейтингові списки.</li><li>30 серпня: наказ про зарахування.</li></ul></article><article class="list-box"><h3>Пакет документів</h3><ul><li>ID-картка або паспорт.</li><li>Документ про освіту з додатком.</li><li>Фотокартки 3x4.</li><li>Заява встановленої форми.</li></ul></article></section>
+    <section class="form-wrap">
+      <article class="form-card">
+        <h3>Електронна заявка</h3>
+        <p class="form-note">Обов'язкові поля: ПІБ, телефон і програма.</p>
+        <form data-application-form data-mail-to="priem@dragonsky.edu.ua" data-telegram="Dragonsky_Admission" novalidate>
+          <div class="form-grid">
+            <label>ПІБ *<input type="text" name="full_name" placeholder="Іваненко Іван Іванович" required /></label>
+            <label>Телефон *<input type="tel" name="phone" placeholder="+380 (XX) XXX-XX-XX" required /></label>
+            <label class="full">Email<input type="email" name="email" placeholder="name@email.com" /></label>
+            <label class="full">Програма *<select name="program" required><option value="">Оберіть програму</option><option value="Технічна експлуатація БПЛА">Технічна експлуатація БПЛА</option><option value="Оператор безпілотних авіаційних систем">Оператор безпілотних авіаційних систем</option><option value="Аерофотозйомка та геоаналітика">Аерофотозйомка та геоаналітика</option></select></label>
+            <label class="full">Коментар<textarea name="message" placeholder="Питання до приймальної комісії"></textarea></label>
+          </div>
+          <div class="form-actions"><button class="btn btn-secondary" type="button" data-send="email">Надіслати на пошту</button><button class="btn btn-secondary" type="button" data-send="telegram">Надіслати в Telegram</button><button class="btn btn-primary" type="button" data-send="both">Надіслати в обидва канали</button></div>
+          <p class="status" data-status></p>
+        </form>
+      </article>
+      <article class="form-card"><h3>Етапи вступу</h3><div class="process"><article class="step"><span class="num">01</span>Реєстрація заяви.</article><article class="step"><span class="num">02</span>Перевірка документів.</article><article class="step"><span class="num">03</span>Формування рейтингу.</article><article class="step"><span class="num">04</span>Зарахування.</article></div></article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><strong>Центр професійної освіти "Dragon Sky" ТОВ "БЕЗПІЛОТНИК"</strong></div>
+      <div>+380500166683<br />kovaav@gmail.com</div>
+      <div><a href="documents.html">Документи</a> • <a href="contacts.html">Контакти</a></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="main-bg.js"></script>
+  <script src="nav-mobile.js"></script>
+</body>
+</html>
